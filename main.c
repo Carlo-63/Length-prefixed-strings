@@ -18,5 +18,8 @@ int main() {
 
     lps_print(my_string);
 
+    lps_delete(&my_second_string);
+    lps_delete(&concat_string);
+
     return 0;
 }

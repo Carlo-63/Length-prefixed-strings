@@ -47,6 +47,7 @@ void lps_print(char *str) {
 }
 
 size_t lps_get_length(char *str) {
+    if (str == NULL) return 0;
     return (size_t) str[0];
 }
 
